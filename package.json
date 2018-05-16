@@ -1,0 +1,26 @@
+{
+  "name": "ripe-tomatoes2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.3",
+    "morgan": "^1.9.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icmitchell/Ripe-Tomatoes2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/icmitchell/Ripe-Tomatoes2/issues"
+  },
+  "homepage": "https://github.com/icmitchell/Ripe-Tomatoes2#readme"
+}
