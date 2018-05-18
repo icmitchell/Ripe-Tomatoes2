@@ -5,7 +5,7 @@ $(document).ready(function(){
         
         switch(choice) {
             case "Directors":
-            $(".a1").html(" <b>Name your 3 favorite directors in the fields below</b>.");
+            $(".a1").html(" <b>Name your 3 favorite directors in the fields below: </b>.");
             $(".secondChoice").html([
                 $('<input>', {type: 'text',val: $('#div1').text(),id:"director1"}),
                 $('<input>', {type: 'text',val: $('#div1').text(),id:"director2"}),
@@ -13,29 +13,14 @@ $(document).ready(function(){
             ]);
             break;
             case "Actors":
-            $(".a1").html(" <b>Name your 3 favorite actors in the fields below</b>.");
+            $(".a1").html(" <b>Name your 3 favorite actors in the fields below: </b>.");
             $(".secondChoice").html([
                 $('<input>', {type: 'text',val: $('#div1').text(),id:"actor1"}),
                 $('<input>', {type: 'text',val: $('#div1').text(),id:"actor2"}),
                 $('<input>', {type: 'text',val: $('#div1').text(),id:"actor3"})
             ]);
             break;
-            case "Awards":
-            $(".a1").empty();
-            $(".secondChoice").empty();
-            break;
-            
-            case "Critics Ratings":
-            $(".a1").empty();
-            $(".secondChoice").empty();
-            break;
-            
-            case "Box Office":
-            $(".a1").empty();
-            $(".secondChoice").empty();
-            break;
-            
-            case "Release Date":
+            case "Box Office/Total Gross":
             $(".a1").empty();
             $(".secondChoice").empty();
             break;
@@ -67,27 +52,12 @@ $(document).ready(function(){
                 $('<input>', {type: 'text',val: $('#div1').text(),id:"actor2"}),
                 $('<input>', {type: 'text',val: $('#div1').text(),id:"actor3"})
             ]);
-            break;
-            case "Awards":
+            break;          
+            case "Box Office/Total Gross":
             $(".a2").empty();
             $(".secondChoice2").empty();
             break;
             
-            case "Critics Ratings":
-            $(".a2").empty();
-            $(".secondChoice2").empty();
-            break;
-            
-            case "Box Office":
-            $(".a2").empty();
-            $(".secondChoice2").empty();
-            break;
-            
-            case "Release Date":
-            $(".a2").empty();
-            $(".secondChoice2").empty();
-            break;
-            console.log(choice2);
         }   
     }
     
@@ -115,25 +85,12 @@ $(document).ready(function(){
                 $('<input>', {type: 'text',val: $('#div1').text(),id:"actor3"})
             ]);
             break;
-            case "Awards":
+
+            case "Box Office/Total Gross":
             $(".a3").empty();
             $(".secondChoice3").empty();
             break;
             
-            case "Critics Ratings":
-            $(".a3").empty();
-            $(".secondChoice3").empty();
-            break;
-            
-            case "Box Office":
-            $(".a3").empty();
-            $(".secondChoice3").empty();
-            break;
-            
-            case "Release Date":
-            $(".a3").empty();
-            $(".secondChoice3").empty();
-            break;
             console.log(choice);
         }   
     }
